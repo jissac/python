@@ -10,9 +10,9 @@ def addBinary(a: str, b: str)-> str:
 
         total = digitA + digitB + carry    
         out = str(total % 2) + out
-        print('out',out,total%2)
+        # print('out',out,total%2)
         carry = total // 2
-        print(digitA,digitB,total,out,carry)
+        # print(digitA,digitB,total,out,carry)
 
     if carry: 
         out = str(carry) + out

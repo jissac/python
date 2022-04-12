@@ -10,6 +10,7 @@ def isAnagram(s:str,t:str)->bool:
             hash_t[char] += 1
         else: hash_t[char] = 1
     print(hash_s.items(), hash_t.items())
+    
     if hash_s == hash_t:
         return True
     return False
